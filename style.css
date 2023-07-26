@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(239, 239, 239)
+}
+/*-----------------HEADER__SUPERIOR-------------------*/
+.header__superior {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    font-size: 14px;
+    
+}
+
+.monedas {
+    display: flex;
+}
+
+.valor {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(159, 159, 159);
+}
+
+p {
+    margin-left: 10px;
+    color: rgb(159, 159, 159);
+}
+.usuario {
+    display: flex;
+}
+.usuario a {
+    color: rgb(159, 159, 159);
+    margin: 8px;
+}
+
+.separador {
+    background-color: rgb(159, 159, 159);
+    width: 1px;
+    margin: 2px 7px 2px 5px;
+}
+
+.bandera {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(159, 159, 159);
+}
