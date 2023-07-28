@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 header{
@@ -11,18 +12,21 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(239, 239, 239)
+    
 }
-/*-----------------HEADER__SUPERIOR-------------------*/
+/*-----------------SECTION__ 1-------------------*/
+.section__1{
+    width: 100%;
+    background: rgb(239, 239, 239)
+
+}
 .header__superior {
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7px;
-    font-size: 14px;
-    
+    font-size: 12px;
 }
 
 .monedas {
@@ -49,14 +53,89 @@ p {
 }
 
 .separador {
-    background-color: rgb(159, 159, 159);
+    background-color: rgb(182, 181, 181);
     width: 1px;
-    margin: 2px 7px 2px 5px;
+    margin: 7px 7px 7px 5px;
 }
 
-.bandera {
+
+.lenguaje button{
+    border: none;
+    height: 100%;
+}
+
+.lenguaje img{
+   width: 20px;
+}
+
+
+/*-----------------SECTION__2-------------------*/
+.section__2{
+    background: white;
+}
+.logo__search {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.logo h2 {
+    margin-left: 8px;
+    font-size: 40px;
+    font-weight: 100;
+    text-transform:uppercase;
+}
+
+.search{
+    display: flex;
+}
+.borde{
+    display: flex;
+    border: 1px rgb(232, 232, 232) solid;
+}
+.search .categ{
+    padding: 10px;
+    border: none;
+}
+
+.search .buscador{
+    width: 400px;
+    padding: 10px;
     border: none;
     outline: none;
-    background: transparent;
-    color: rgb(159, 159, 159);
+}
+
+form {
+    position: relative;
+}
+
+.btn-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background: white;
+}
+
+.btn-cart{
+    width: 170px;
+    padding: 11px;
+    margin-left: 3px;
+    background: rgb(249, 141, 25);
+    color: white;
+    border: none;
 }
