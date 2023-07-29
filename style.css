@@ -58,16 +58,71 @@ p {
     margin: 7px 7px 7px 5px;
 }
 
-
-.lenguaje button{
-    border: none;
-    height: 100%;
+.seleccionar__leng{
+    cursor: pointer;
 }
 
-.lenguaje img{
-   width: 20px;
+.seleccionar__leng:before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url("https://flagsapi.com/US/flat/32.png");
 }
 
+.lenguaje__menu {
+    position: relative;
+    
+}
+
+.lenguaje__menu ul {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -17px;
+}
+
+.lenguaje__menu ul li a {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lenguaje__menu ul li a:before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.en:before {
+    background-image: url("https://flagsapi.com/US/flat/32.png");
+}
+
+.es:before {
+    background-image: url("https://flagsapi.com/ES/flat/32.png");
+}
+
+.fr:before {
+    background-image: url("https://flagsapi.com/FR/flat/32.png");
+}
+
+.cn:before {
+    background-image: url("https://flagsapi.com/CN/flat/32.png");
+}
+
+.lenguaje__menu ul li:hover {
+    background: rgb(239, 239, 239);
+}
+
+.lenguaje__menu:hover ul {
+    display: block;
+}
 
 /*-----------------SECTION__2-------------------*/
 .section__2{
@@ -138,4 +193,5 @@ form {
     background: rgb(249, 141, 25);
     color: white;
     border: none;
+    cursor: pointer;
 }
