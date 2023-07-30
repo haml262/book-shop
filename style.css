@@ -190,8 +190,80 @@ form {
     width: 170px;
     padding: 11px;
     margin-left: 3px;
-    background: rgb(249, 141, 25);
+    background: rgb(233, 119, 48);
     color: white;
     border: none;
     cursor: pointer;
+}
+
+
+/* --------------MENU PRINCIPAL-------------- */
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(52, 52, 52);;
+}
+
+.container__menu {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu__principal ul {
+    display: flex;
+    height: 100%;
+}
+
+.menu__principal ul li {
+    height: 100%;
+    position: relative;
+}
+
+.menu__principal > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu__principal > ul > li:first-child > a {
+    background-color: rgb(233, 119, 48);
+    padding-right: 150px;
+    font-weight: bold;
+    transform: translateY(-10px);
+    font-size: 15px;
+}
+
+.fa-bars {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.telefono{
+    background-color: rgb(233, 119, 48);
+    height: 100%;
+}
+
+.telefono a {
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 28px 0px 30px;
+    font-weight: bold;
+}
+
+.fa-phone{
+    padding-right: 12px;
+    font-size: 30px;
 }
