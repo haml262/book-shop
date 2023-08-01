@@ -9,7 +9,7 @@
 
 header{
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     
@@ -242,6 +242,7 @@ nav{
     font-weight: bold;
     transform: translateY(-10px);
     font-size: 15px;
+    position: relative;
 }
 
 .fa-bars {
@@ -267,3 +268,93 @@ nav{
     padding-right: 12px;
     font-size: 30px;
 }
+/* --------CATEGORIAS----------- */
+.categorias{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: white;
+    border: 1px rgb(232, 232, 232) solid;
+    transform: translateY(-10px);
+}
+
+.categorias ul {
+    display: block;
+    width: 283px;
+}
+
+.categorias ul li {
+    width: 100%;
+    padding: 11px;
+
+}
+
+.categorias ul li a {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+}
+
+.categorias ul li a:hover {
+    color: rgb(233, 119, 48);
+}
+
+.fiction{
+    position: relative;
+}
+/* ---------SUB__CATEGORIA------------ */
+.sub__categorias {
+    
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 283px;
+    border: 1px rgb(232, 232, 232) solid;
+    border-left: 3px rgb(233, 119, 48) solid;
+    border-right: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+   
+}
+
+.categorias ul li:hover .sub__categorias{
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub__categorias ul {
+    margin: 17px;
+}
+.sub__categorias ul li {
+    width: 150px;
+    padding: 5px;
+}
+
+.sub__categorias ul li a {
+    display: inline-block;
+}
+
+.sub__categorias > .img__select {
+    width: 250px;
+    height: 334px;
+    background-color: white;
+    top: 0;
+    left: 184px;
+    position: absolute;
+    border: 1px rgb(232, 232, 232) solid;
+    border-left: none;
+}
+
+.img__select img {
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+/* -------------IMAGEN__HERO------------- */
+
