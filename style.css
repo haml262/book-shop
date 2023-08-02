@@ -40,7 +40,7 @@ header{
     color: rgb(159, 159, 159);
 }
 
-p {
+.monedas p {
     margin-left: 10px;
     color: rgb(159, 159, 159);
 }
@@ -72,7 +72,6 @@ p {
 
 .lenguaje__menu {
     position: relative;
-    
 }
 
 .lenguaje__menu ul {
@@ -357,4 +356,59 @@ nav{
 }
 
 /* -------------IMAGEN__HERO------------- */
+.imagen__container {
+    width: 100%;
+    
+}
+.imagen__principal {
+    max-width: 1200px;
+    margin: auto; 
+    display: flex;
+    justify-content: end;
+}
 
+.imagen__principal .img {
+    width: 880px;
+    height: 446px;
+    margin-top: 25px;
+    border: solid black 1px;
+    background-image: url(mujer\ leyendo\ libro.jpg);
+    background-size :cover;
+    text-transform: uppercase;
+    position: relative;
+    z-index: -1;
+}
+
+.imagen__principal .img h1{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 140px;
+    font-weight: 100;
+}
+
+.imagen__principal .img .info__hero {
+    position: absolute; 
+    top: 140px;
+    left: 105px;
+    color: white;
+}
+
+.imagen__principal .img .info__hero h3 {
+   font-size: 35px;
+   margin-bottom: 12px;
+}
+
+.imagen__principal .img .info__hero p {
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.imagen__principal .img .info__hero button {
+    width: 120px;
+    height: 40px;
+    background: rgb(233, 119, 48);
+    color: white;
+    border: none;
+}
