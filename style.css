@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+body{
+    height: 100vh;
+}
+
 header{
     width: 100%;
     /* position: sticky; */
@@ -517,6 +521,7 @@ nav{
     color: #fff;
     background: rgb(51, 51, 51);
     border: none;
+    cursor: pointer;
 }
 
 .fa-cart-shopping{
@@ -620,4 +625,166 @@ nav{
     color: rgb(68, 68, 68);
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+/* ---------FOOTER---------- */
+
+footer{
+    margin-top: 30px;
+    background-color: rgb(68, 68, 68);
+    width: 100%;
+}
+
+.container__footer{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.col-3{
+    width: 25%; 
+    float: left;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.container-fluid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256,256,256,.1);
+    display: flex;
+    justify-content: center;
+}
+
+.logo__footer{
+    color: rgb(230, 100, 48);
+}
+
+.logo__footer span{
+    color: #fff;
+    font-weight: 100;
+}
+
+.btn-square{
+    width: 38px;
+    height: 38px;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.container__footer p{
+    color: #fff;
+    width: 300px;
+    margin-top: 15px;
+}
+
+p a{
+    color: #fff; 
+    text-decoration: none;
+}
+
+.social-btn i{
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border: 1px solid #fff;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.social-btn i:hover{
+    color: rgb(230, 100, 48);
+    border: 1px solid rgb(230, 100, 48);
+}
+
+h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.me-3{
+    margin-right: 15px;
+}
+footer .btn.btn-link{
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 0;
+    text-align: left;
+    line-height: 28px;
+    color: #fff;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+footer .btn.btn-link::before{
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+}
+
+footer .btn.btn-link:hover{
+    color: rgb(230, 100, 48);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.input__footer{
+    width: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+.input{
+    width: 285px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    outline: none;
+}
+
+.input:focus{
+    color: rgb(68, 68, 68);
+    background-color: white;
+    border-color: rgb(230, 100, 48);
+    outline: 0;
+}
+
+.signbtn{
+    position: absolute;
+    right: 118px;
+    top: 4px;
+    padding: 7px 20px;
+    background-color: rgb(230, 100, 48);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 100, 48);
+    font-size: 15px;
+    transition: .3s;
+}
+.signbtn:active:focus{
+    box-shadow: 0 0 0 0.25rem rgba(217,94,13,0.5);
+}
+.signbtn:hover{
+    color: rgb(230, 100, 48);
+    background: transparent;
+}
+
+.col-6>p {
+    color: rgb(230, 100, 48);
 }
