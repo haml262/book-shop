@@ -344,7 +344,7 @@ nav{
 
 .sub__categorias > .img__select {
     width: 250px;
-    height: 334px;
+    height: 333px;
     background-color: white;
     top: 0;
     left: 184px;
@@ -641,7 +641,7 @@ footer{
     margin: 0 auto;
 }
 
-.col-3{
+.columna{
     width: 25%; 
     float: left;
 }
@@ -785,6 +785,6 @@ footer .btn.btn-link:hover{
     background: transparent;
 }
 
-.col-6>p {
+.columna-2>p {
     color: rgb(230, 100, 48);
 }
